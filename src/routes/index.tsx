@@ -3,6 +3,7 @@ import { Nav } from "@/components/landing/Nav";
 import { Hero } from "@/components/landing/Hero";
 import { Marquee } from "@/components/landing/Marquee";
 import { Rooms } from "@/components/landing/Rooms";
+import { Categories } from "@/components/landing/Categories";
 import { HowItWorks } from "@/components/landing/HowItWorks";
 import { Cities } from "@/components/landing/Cities";
 import { Hosts } from "@/components/landing/Hosts";
@@ -34,6 +35,7 @@ function Index() {
       <Hero />
       <Marquee />
       <Rooms />
+      <Categories />
       <HowItWorks />
       <Cities />
       <Hosts />
